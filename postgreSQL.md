@@ -31,5 +31,31 @@ board_db=# \dt
  public | user_review_point | table | postgres
 ```
 
+## DB
+```bash
+# DB 생성
 
-## 
+# DB 선택
+postgres=# \c board_db
+
+# DB 삭제
+
+```
+
+
+## Table
+```bash
+# Table 생성
+
+# Table 선택
+postgres=# \c board_db
+
+# Table 삭제
+```
+
+## 데이터
+```bash
+# 데이터 생성
+INSERT INTO employees (id, name, email) VALUES (1, '홍길동', 'hong@example.com');
+
+```
